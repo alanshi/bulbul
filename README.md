@@ -11,7 +11,12 @@ python-library
  
  
 run example:
- modify src/server/udpServer.py Line 33 localIP = '192.168.0.101'
- exec python src/server/udpServer.py
+
+ server:
  
- install mmptp.apk in android2.2 or higher system
+  * src/server/udpServer.py Line 33 localIP = '192.168.0.101' modified to your Ip
+  * exec python src/server/udpServer.py
+ client:
+ 
+  * install mmptp.apk in android2.2 or higher system
+  * run app and input server ip,press connect button
