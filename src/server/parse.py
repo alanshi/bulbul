@@ -93,13 +93,13 @@ def ExecCommand(commandKey,commandValue):
         x = int(float(commandValueList[1]))
         y = int(float(commandValueList[2]))
         #移动鼠标
-        mouseControl.MoveMouse(commandValueList[0],x,y)
+        mouse.MoveMouse(commandValueList[0],x,y)
         #mouseControl.Move(x,y)
         return u'mouseMove success!!!'
 
     #如果是点击鼠标
     elif commandKey == 'mouseClick':
-        mouseControl.ClickMouse(commandValue)
+        mouse.ClickMouse(commandValue)
         return u'mouseClick success!!!'
 
     else:
