@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    
+    >
+
+
+<!--
+ImageButton - 图片按钮控件
+-->
+	<LinearLayout android:id="@+id/linearLayout3" android:layout_width="fill_parent" android:orientation="vertical" android:layout_height="fill_parent" android:weightSum="1">
+		    <TextView android:id="@+id/textViewMediaControl" android:text="媒体控制" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_height="wrap_content" android:layout_width="wrap_content"></TextView>
+		    <LinearLayout android:id="@+id/linearLayout1" android:layout_height="wrap_content" android:layout_width="fill_parent">
+		        <ImageButton android:id="@+id/ButtonPlayPause" android:layout_height="wrap_content" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_marginLeft="20px" android:layout_marginRight="20px" android:layout_marginTop="35px" android:layout_marginBottom="35px"></ImageButton>
+		        <ImageButton android:id="@+id/ButtonPrevious" android:layout_height="wrap_content" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_marginLeft="20px" android:layout_marginRight="20px" android:layout_marginTop="35px" android:layout_marginBottom="35px"></ImageButton>
+		        <ImageButton android:id="@+id/ButtonNext" android:layout_height="wrap_content" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_marginLeft="20px" android:layout_marginTop="35px" android:layout_marginBottom="35px"></ImageButton>
+		    </LinearLayout>
+		    <LinearLayout android:id="@+id/linearLayout2" android:layout_height="wrap_content" android:layout_width="fill_parent">
+		        <ImageButton android:id="@+id/ButtonFullStandScreen" android:layout_height="wrap_content" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_marginLeft="20px" android:layout_marginRight="20px" android:layout_marginTop="35px" android:layout_marginBottom="35px"></ImageButton>
+		        <ImageButton android:id="@+id/ButtonFallBack" android:layout_height="wrap_content" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_marginLeft="20px" android:layout_marginRight="20px" android:layout_marginTop="35px" android:layout_marginBottom="35px"></ImageButton>
+		        <ImageButton android:id="@+id/ButtonFastForward" android:layout_height="wrap_content" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_marginLeft="20px" android:layout_marginTop="35px" android:layout_marginBottom="35px"></ImageButton>
+		    </LinearLayout>
+		    
+		    <TextView android:id="@+id/textViewVolume" android:text="音量大小" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_height="wrap_content" android:layout_width="wrap_content"></TextView>
+		    <SeekBar android:id="@+id/SeekBarVolumeControl" android:max="100" android:layout_height="wrap_content" android:layout_width="fill_parent"></SeekBar>
+		    <View android:layout_width="wrap_content" android:id="@+id/view1" android:layout_height="24dp"></View>
+		    
+	
+		    
+	</LinearLayout>
+    
+</LinearLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="client.com.mmptp"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <uses-sdk android:minSdkVersion="7" />
+    
+    <uses-permission android:name="android.permission.INTERNET" /> 
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- 对外部存储设备的写入权限 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+    <!-- 对外部文件的写入和删除权限 -->
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"></uses-permission>
+    <application  android:icon="@drawable/icon" android:label="@string/app_name">
+        <activity android:name=".MmptpActivity"
+                  android:configChanges="keyboardHidden|orientation"
+        >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".MouseEvent" android:label="@string/app_name" android:configChanges="keyboardHidden|orientation">
+        </activity>
+
+        <activity android:name=".MediaControl" android:label="@string/app_name" android:configChanges="keyboardHidden|orientation">
+        </activity>
+        
+        <activity android:name=".Connect" android:label="@string/app_name" android:configChanges="keyboardHidden|orientation">
+        </activity>
+        <activity android:name=".SystemControl" android:label="@string/app_name" android:configChanges="keyboardHidden|orientation">
+        </activity>
+    </application>
+    
+
+
+    
+</manifest>

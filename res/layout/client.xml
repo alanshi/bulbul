@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:weightSum="1" android:orientation="vertical">
+    <TextView android:textAppearance="?android:attr/textAppearanceSmall" android:text="连接电脑" android:layout_width="wrap_content" android:id="@+id/textViewConnectState" android:layout_height="wrap_content"></TextView>
+    <LinearLayout android:layout_width="fill_parent" android:id="@+id/linearLayout2" android:layout_height="wrap_content">
+        <LinearLayout android:layout_width="wrap_content" android:id="@+id/linearLayout3" android:layout_height="fill_parent">
+        </LinearLayout>
+        <TextView android:textAppearance="?android:attr/textAppearanceSmall" android:text="IP地址:" android:layout_width="wrap_content" android:id="@+id/textView4" android:layout_height="wrap_content"></TextView>
+        <EditText android:layout_width="178dp" android:id="@+id/editTextIpaddress" android:layout_height="wrap_content" android:layout_weight="0.81"></EditText>
+        <Button android:text="连接" android:layout_width="wrap_content" android:id="@+id/buttonConnect" android:layout_height="wrap_content"></Button>
+    </LinearLayout>
+    
+    <View android:layout_width="wrap_content" android:id="@+id/view2" android:layout_height="33dp"></View>
+    <TextView android:textAppearance="?android:attr/textAppearanceSmall" android:text="音量调节" android:layout_width="wrap_content" android:id="@+id/textViewSoundControl" android:layout_height="wrap_content"></TextView>
+    <SeekBar android:layout_height="wrap_content" android:id="@+id/seekBarSoundControl" android:layout_width="fill_parent" android:max="100"></SeekBar>
+    <View android:layout_width="wrap_content" android:id="@+id/view1" android:layout_height="38dp" android:layout_weight="0.35"></View>
+    <TextView android:textAppearance="?android:attr/textAppearanceSmall" android:id="@+id/textView1" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="媒体控制"></TextView>
+    <LinearLayout android:layout_width="fill_parent" android:id="@+id/linearLayout4" android:layout_height="wrap_content" android:weightSum="1">
+        <Button android:layout_height="wrap_content" android:text="暂停/播放" android:layout_width="wrap_content" android:id="@+id/buttonPausePlay" android:layout_weight="0.19"></Button>
+        <Button android:layout_height="wrap_content" android:text="上一曲" android:layout_width="wrap_content" android:id="@+id/buttonLeft" android:layout_weight="0.41"></Button>
+        <Button android:layout_height="wrap_content" android:text="下一曲" android:layout_width="wrap_content" android:id="@+id/buttonRight" android:layout_weight="0.38"></Button>
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent" android:id="@+id/linearLayout5" android:layout_height="wrap_content" android:weightSum="1">
+    
+    	<Button android:layout_height="wrap_content" android:text="全屏/标准" android:layout_width="wrap_content" android:id="@+id/buttonStandardScreen" android:layout_weight="0.14"></Button>
+                <Button android:layout_height="wrap_content" android:text="倒退" android:layout_width="wrap_content" android:id="@+id/buttonBackwards" android:layout_weight="0.44"></Button>
+        <Button android:layout_height="wrap_content" android:text="快进" android:layout_width="wrap_content" android:id="@+id/buttonFastforward" android:layout_weight="0.42"></Button>
+
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent" android:id="@+id/linearLayout6" android:layout_height="wrap_content" android:baselineAligned="true" android:weightSum="1">
+    </LinearLayout>
+    <View android:layout_width="wrap_content" android:id="@+id/view4" android:layout_height="43dp"></View>
+    
+    <TextView android:textAppearance="?android:attr/textAppearanceSmall" android:text="系统控制" android:layout_width="wrap_content" android:id="@+id/textView2" android:layout_height="wrap_content"></TextView>
+    <LinearLayout android:layout_width="fill_parent" android:id="@+id/linearLayout1" android:layout_height="wrap_content" android:weightSum="1">
+        <Button android:text="注销" android:layout_width="wrap_content" android:id="@+id/buttonLogout" android:layout_height="wrap_content" android:layout_weight="0.49"></Button>
+        <Button android:text="重启" android:layout_width="wrap_content" android:id="@+id/buttonReboot" android:layout_height="wrap_content" android:layout_weight="0.49"></Button>
+        <Button android:text="关机" android:id="@+id/buttonShutDown" android:layout_height="wrap_content" android:layout_width="106dp"></Button>
+    </LinearLayout>
+    <Button android:text="鼠标模拟" android:id="@+id/buttonMouse" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+</LinearLayout>

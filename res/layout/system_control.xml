@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    
+    >
+
+
+<!--
+ImageButton - 图片按钮控件
+-->
+	<LinearLayout android:id="@+id/linearLayout3" android:layout_width="fill_parent" android:orientation="vertical" android:layout_height="fill_parent" android:weightSum="1">
+
+		    <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:layout_width="wrap_content" android:id="@+id/other" android:layout_height="wrap_content" android:text="系统控制"></TextView>
+		    
+		    <LinearLayout android:layout_width="fill_parent" android:id="@+id/linearLayout4" android:layout_height="wrap_content">
+		    	<ImageButton android:id="@+id/ButtonLogoff" android:layout_height="wrap_content" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_marginLeft="20px" android:layout_marginRight="20px" android:layout_marginTop="35px" android:layout_marginBottom="35px"></ImageButton>
+		        <ImageButton android:id="@+id/ButtonReboot" android:layout_height="wrap_content" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_marginLeft="20px" android:layout_marginRight="20px" android:layout_marginTop="35px" android:layout_marginBottom="35px"></ImageButton>
+		        <ImageButton android:id="@+id/ButtonShutdown" android:layout_height="wrap_content" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_marginLeft="20px" android:layout_marginTop="35px" android:layout_marginBottom="35px"></ImageButton>
+		    </LinearLayout>
+		    
+	</LinearLayout>
+    
+</LinearLayout>

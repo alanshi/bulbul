@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <LinearLayout android:id="@+id/linearLayout1" android:layout_height="wrap_content" android:layout_width="fill_parent" android:weightSum="1">
+        <Button android:layout_height="wrap_content" android:layout_weight="0.32" android:text="左键" android:id="@+id/btnLeft" android:layout_width="wrap_content"></Button>
+        <Button android:layout_height="wrap_content" android:layout_weight="0.32" android:text="中键" android:id="@+id/btnMiddle" android:layout_width="wrap_content"></Button>
+        <Button android:layout_height="wrap_content" android:layout_weight="0.32" android:text="右键" android:id="@+id/btnRight" android:layout_width="wrap_content"></Button>
+    </LinearLayout>
+    <View android:layout_height="453dp" android:id="@+id/view1" android:layout_width="wrap_content"></View>
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:weightSum="1" android:orientation="vertical">
+    <TextView android:textAppearance="?android:attr/textAppearanceSmall" android:text="连接电脑" android:layout_width="wrap_content" android:id="@+id/textViewConnect" android:layout_height="wrap_content"></TextView>
+    <LinearLayout android:layout_width="fill_parent" android:id="@+id/linearLayout2" android:layout_height="wrap_content">
+        <LinearLayout android:layout_width="wrap_content" android:id="@+id/linearLayout3" android:layout_height="fill_parent">
+        </LinearLayout>
+        <TextView android:textAppearance="?android:attr/textAppearanceSmall" android:text="IP地址:" android:layout_width="wrap_content" android:id="@+id/textViewipAddress" android:layout_height="wrap_content"></TextView>
+        <EditText android:layout_width="178dp" android:id="@+id/ipAddress" android:layout_height="wrap_content" android:layout_weight="0.81"></EditText>
+        <Button android:text="连接" android:layout_width="wrap_content" android:id="@+id/buttonConnect" android:layout_height="wrap_content"></Button>
+    </LinearLayout>
+    <TextView android:textAppearance="?android:attr/textAppearanceSmall" android:layout_width="wrap_content" android:id="@+id/textViewConnectState" android:layout_height="wrap_content" android:text="TextView"></TextView>
+
+</LinearLayout>

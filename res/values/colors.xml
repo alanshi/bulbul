@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+<color name="tab_unselected">#ff000000</color>
+<color name="tab_selected">#ff383838</color>
+<color name="tab_focus">#ffff8000</color>
+<color name="tab_press">#ffe9a700</color>
+
+<color name="tab_font_unselected">#ff888888</color>
+<color name="tab_font_selected">#ffffffff</color>
+<color name="tab_font_focus">#ffffffff</color>
+<color name="tab_font_press">#ff888888</color>
+
+<color name="black">#FF000000</color>
+<color name="dkgray">#FF444444</color>
+<color name="gray">#FF888888</color>
+<color name="ltgray">#FFCCCCCC</color>
+<color name="white">#FFFFFFFF</color>
+<color name="red">#FFFF0000</color>
+<color name="green">#FF00FF00</color>
+<color name="blue">#FF0000FF</color>
+<color name="yellow">#FFFFFF00</color>
+<color name="cyan">#FF00FFFF</color>
+<color name="magenta">#FFFF00FF</color>
+<color name="transparent">#00000000</color>
+</resources>
