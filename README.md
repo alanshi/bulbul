@@ -1,13 +1,12 @@
 bulbul
 ======
 
-a mobile phone telecontrol pc solutions
+A windows remote control system example for android 
 
-python-library
+Reference:
 
  * Python for Windows extensions: http://sourceforge.net/projects/pywin32/
  * SendKeys http://www.rutherfurd.net/python/sendkeys/
- 
  
  
 run example:
